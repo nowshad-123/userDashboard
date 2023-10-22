@@ -1,0 +1,63 @@
+.addCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: #999CA0;
+    padding: 40px;
+    height: 225px;
+    width: 32vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    position: relative;
+    left: 420px;
+
+}
+
+.add_container {
+    padding: 20px;
+    height: 225px;
+    width: 32vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    left: 423px;
+
+}
+
+
+.user_name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+
+
+.card-icon {
+
+    border-radius: 30px;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.lableName {
+    margin-left: 5px;
+    font-size: 12px;
+    text-decoration: underline;
+}

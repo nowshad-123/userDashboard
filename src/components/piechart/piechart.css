@@ -1,0 +1,59 @@
+.doughnut-chart-container {
+    padding: 20px;
+    width: 32vw;
+    height: 225px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* Ensure content is displayed in a column */
+
+    /* Align content to top and bottom */
+    align-items: flex-start;
+    /* Align content to the left */
+
+    /* The following properties will move the "Top Products" to the top right corner */
+    position: relative;
+    left: 410px;
+}
+
+.heading-container {
+    width: 100%;
+    /* Take the full width of the container */
+    display: flex;
+    justify-content: space-between;
+    /* Align "Top Products" and the paragraph to the right */
+    align-items: center;
+    color: black;
+    padding: 10px 20px;
+    /* Add padding to the heading container */
+}
+
+.head {
+    font-size: 22px;
+    margin: 0;
+    /* Reset margin to remove space at the top */
+}
+
+.para {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 200px;
+    line-height: 15px;
+    letter-spacing: 0em;
+    margin: 0;
+    /* Reset margin to remove space at the top */
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    left: 15px;
+    bottom: 70px;
+
+
+}

@@ -1,0 +1,22 @@
+.cards-container {
+    position: absolute;
+    left: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        left: 0px;
+
+    }
+}
+
+.bottomCo {
+    display: flex;
+    position: relative;
+    top: 150px;
+
+}

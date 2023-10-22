@@ -1,0 +1,97 @@
+.card {
+    background-color: white;
+    border-radius: 20px;
+    width: 237.32px;
+    height: 120px;
+    padding: 20px;
+    position: relative;
+    transition: box-shadow 0.3s;
+    /* Add a transition for smoother hover effect */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    /* Initial box shadow */
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px rgba(1, 0, 0, 0.16);
+    /* Box shadow on hover */
+
+}
+
+
+.card-icon {
+    border-radius: 30px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+
+}
+
+.card-name {
+    height: 13px;
+    width: 124px;
+    margin: 5px;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+.card-income {
+    color: #000000;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-size: 21px;
+    font-weight: 700;
+    width: 124px;
+    height: 29px;
+    margin: 5px;
+}
+
+
+.card-increment {
+    background-color: #e9f9eb;
+    width: 47px;
+    height: 24px;
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    right: 10px;
+    overflow: hidden;
+    font-family: "Figtree-SemiBold", Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    color: green;
+
+    /* You can adjust the color to your preference */
+}
+
+
+
+/* .label {
+    background-color: ;
+    border-radius: 34px;
+    height: 24px;
+    
+    position: relative;
+    
+}
+
+.label .label-text {
+    color: var(--supportiveroshi-100);
+    font-family: "Figtree-SemiBold", Helvetica;
+    font-size: 10px;
+    font-weight: 600;
+    height: 16px;
+    left: 8px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    white-space: nowrap;
+} */

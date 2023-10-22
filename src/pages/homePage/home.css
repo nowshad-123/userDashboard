@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #F8FAFF;
+
+}
+
+.board {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+
+
+}
+
+
+
+.logo {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.015em;
+    text-align: left;
+
+}
+
+
+.home {
+    position: relative;
+    display: inline-block;
+    padding: 1em 5em 1em 1em;
+    overflow: hidden;
+    color: #fff;
+    width: 45%;
+    height: 100vh;
+
+}
+
+.home:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4285F4;
+
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    transform: skew(-10deg);
+    z-index: -1;
+}
+
+/* For screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    .home {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .signForm {
+        width: 100%;
+        padding: 1em;
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+
+.board {
+    font-size: 5vw;
+    /* Responsive font size based on the viewport width */
+}
+
+.icons li {
+    font-size: 2em;
+    /* Responsive font size based on the parent element's font size */
+}
+
+.form {
+    width: 90%;
+    /* Adjust width as needed based on the screen size */
+}
+
+
+
+.icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: Fixed (299px);
+    height: Hug (48px);
+    top: 909px;
+    left: 144.5px;
+
+
+
+}
+
+.icons li {
+    margin-right: 20px;
+    font-size: 35px;
+
+}
+
+.signForm {
+    width: 60%;
+    height: 100vh;
+    top: -512px;
+    left: -1448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -512px;
+    left: -1448px;
+
+
+
+}
+
+.signFormh {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    align-items: left;
+    letter-spacing: 0em;
+
+
+}
+
+.signFormp {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    align-items: left;
+
+}
+
+.form {
+    width: 422.64px;
+    top: 398.88px;
+    left: 813.18px;
+    border-radius: 10px;
+    border: 1px;
+    background-color: white;
+
+
+}
+
+.button {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.inputField {
+    background: #EAEAEA;
+}
+
+.register {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.google_sign {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 185px;
+    margin: 5px;
+
+}
+
+.google_img {
+    background: white;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}

@@ -1,0 +1,54 @@
+.navContainer {
+    width: 60vw;
+    height: 32.93px;
+    top: 0px;
+    position: relative;
+    left: 250px;
+    border: 1px;
+    margin: 20px;
+    margin-left: 100px;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .navContainer {
+        left: 0px;
+        /* Position when screen size is less than 768px */
+    }
+}
+
+
+.searchInput {
+    position: relative;
+    left: 500px;
+    margin-left: auto;
+    border-width: 0px;
+    border-radius: 13px;
+
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #999;
+    position: relative;
+    left: 470px;
+    margin-top: 8px;
+
+}
+
+
+.notification-icon {
+    font-size: 24px;
+    color: black;
+    position: relative;
+    left: 212px;
+    margin-left: auto;
+    margin-top: 6px;
+}
+
+
+.picture {
+    border-radius: 100px;
+    position: relative;
+    left: 220px;
+}

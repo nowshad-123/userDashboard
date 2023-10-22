@@ -1,0 +1,56 @@
+.menu {
+    background: linear-gradient(180deg, #4285F4 0%, #3C83F9 100%);
+    width: 14vw;
+    height: 90vh;
+    top: 40px;
+    left: 43px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+
+}
+
+.Navdashboard {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    width: 123px;
+    height: 44px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.nav-links {
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav-icons {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    text-align: left;
+    display: flex;
+    /* Make the icon and label flex containers */
+    align-items: flex-start;
+
+}
+
+.nav-icons svg {
+    margin-right: 10px;
+    /* Add some space between the icon and the label */
+}
+
+.nav-icons:hover {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+
+}

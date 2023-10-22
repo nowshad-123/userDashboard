@@ -9,7 +9,7 @@ function Startedpage() {
 
         const params = {
             client_id: '159570393750-e5u242t7sjb6bobagor2pnk5uldq3kj1.apps.googleusercontent.com',
-            redirect_uri: 'http://localhost:3000/dashboard',
+            redirect_uri: 'https://user-dashboard-lovat.vercel.app/dashboard',
             response_type: 'token',
             scope: 'https://www.googleapis.com/auth/drive.metadata.readonly',
             include_granted_scopes: 'true',
